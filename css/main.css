@@ -1,0 +1,99 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Indie Flower', cursive;
+  color: ##000000;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  float: left;
+  padding-left: 10px;
+}
+
+/***** Header *****/
+.text-box {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  width: 1400px;
+}
+
+.text-box h1 {
+  font-size: 90px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.text-box h1 span {
+  color: #000000;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/***** Grid *****/
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  float: left;
+}
+
+/***** Hero *****/
+
+#hero .full-width {
+  background-color: #ACD1E9;
+  height: auto;
+  float: left;
+  padding-bottom: 5px;
+}
+
+#hero .half-width {
+float: right;
+padding: 10px;
+}
+
+#hero h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#hero p {
+  font-size: 41px;
+  color: #FFFFFF;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#hero img {
+  float: right;
+  padding: 5px;
+  border: 5px dashed black;
+  display: flex;
+}
